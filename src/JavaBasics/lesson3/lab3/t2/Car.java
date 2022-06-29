@@ -10,11 +10,14 @@ package JavaBasics.lesson3.lab3.t2;
 //  ●	и пустой конструктор.
 
 
+import jdk.nashorn.internal.objects.annotations.Constructor;
+
 public class Car {
     private Color color;
     private String name;
     private Double weight; // kg
 
+    //    Constructors
     public Car() {
     }
 
@@ -27,6 +30,7 @@ public class Car {
         this.weight = weight;
     }
 
+    //Getters and Setters
     public Color getColor() {
         return color;
     }
@@ -58,18 +62,5 @@ public class Car {
                 " " + name +
                 ", which weight is " + weight + " kg";
     }
-
-//    public Car(Color color) {
-//        this.color = String.valueOf(color);
-//    }
-//
-//    public Car(Color color, Double weight) {
-//        this.color = String.valueOf(color);
-//        this.weight = weight;
-//    }
-//
-//    public void getInfo() {
-//        System.out.println();
-//    }
 
 }
