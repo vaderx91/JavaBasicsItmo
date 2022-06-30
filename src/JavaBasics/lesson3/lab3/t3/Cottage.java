@@ -73,9 +73,9 @@ public class Cottage {
             if (currentYear > this.builtYear) {
                 return currentYear - this.builtYear;
             } else {
-                System.out.println("Invalid built year");
+                return 0;
             }
         }
-        return 0;
+
     }
 }
