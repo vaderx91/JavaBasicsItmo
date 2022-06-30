@@ -7,7 +7,7 @@ package JavaBasics.lesson3.lab3.t1;
 // Обратитесь к методу «printCourse» для вывода значения поля «course».
 
 class Study {
-    private final String course;
+    private String course;
 
     public Study(String course) {
         this.course = course;

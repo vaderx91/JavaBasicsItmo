@@ -1,7 +1,7 @@
 package JavaBasics.lesson3.lab3.t2;
 
 
-public class Main {
+public class MainCar {
     public static void main(String[] args) {
 
         Car car1 = new Car();
