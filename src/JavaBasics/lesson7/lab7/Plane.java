@@ -26,7 +26,7 @@ public class Plane {
     }
 
 
-    static class Wing {
+     static class Wing {
         private Integer weight;
 
         public Wing(Integer weight) {
@@ -42,7 +42,7 @@ public class Plane {
         }
 
         String printWeight() {
-            return (" wing weight is: " + this.weight + " kg");
+            return (" wing weight is: " + weight + " kg");
         }
     }
 
